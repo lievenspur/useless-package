@@ -5,7 +5,8 @@ description = ""
 authors = ["Lieven Spur"]
 readme = "README.md"
 packages = [
-    { include = "util", from = "src" }
+    { include = "util", from = "src" },
+    { include = "main", from = "src" }
 ]
 
 [tool.poetry.dependencies]
